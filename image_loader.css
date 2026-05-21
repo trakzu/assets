@@ -1,0 +1,36 @@
+/* =========================
+PROGRESSIVE IMAGE
+========================= */
+
+.progressive-image{
+
+transition:
+filter .8s ease,
+transform .8s ease,
+opacity .8s ease;
+
+}
+
+/* LOW QUALITY */
+
+.progressive-loading{
+
+filter:
+blur(18px)
+brightness(.9);
+
+transform:scale(1.04);
+
+}
+
+/* HD IMAGE */
+
+.progressive-loaded{
+
+filter:
+blur(0px)
+brightness(1);
+
+transform:scale(1);
+
+}
